@@ -1238,12 +1238,28 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:h-screen{
+    height: 100vh;
+  }
+
   .sm\:flex-row{
     flex-direction: row;
   }
 
   .sm\:flex-col{
     flex-direction: column;
+  }
+
+  .sm\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .sm\:pb-0{
+    padding-bottom: 0px;
+  }
+
+  .sm\:pt-0{
+    padding-top: 0px;
   }
 
   .sm\:text-sm{
@@ -1335,6 +1351,11 @@ video {
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
